@@ -1,0 +1,113 @@
+#container
+{
+	margin-top: 2%;
+	background-color: white;
+	content: fixed;
+	float: left;
+	padding: 10px;
+
+
+}
+
+body
+{
+	margin: 2% 10% ;
+
+	background-color:#99CCFF ;
+    background: url("http://i2.wp.com/theultralinx.com/wp-content/uploads/2014/10/Wallpaper-of-the-Week-171.jpg?resize=2490%2C1402") left no-repeat fixed;
+	font-style : comic;
+}
+header{
+		
+		vertical-align: fixed;
+		background:white;
+		color : #0574BC;
+		margin: 5px 0 ;
+		padding: 19px 50px;
+		border-radius: 5px;
+		font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+
+		
+}
+	
+
+#head
+{
+	float: left;
+	
+}	
+.bod
+{
+	margin-top: 10%;
+	float : left;
+	background-color: white;
+	width: 80%;
+}
+
+#side
+{
+	background-color: black;
+	width: 10%;
+}
+.temp_button
+{	width: 125px;
+	text-align: left;
+	border:none;
+
+	margin-left:10%;
+	
+}
+.temp_button:hover
+{
+	background-color: #6CB5FF; 
+	font-style: bold; 
+	
+	color: white;
+	border-radius: 3px;
+
+}
+#content
+{
+	margin-top: none;
+	padding : 2%;
+	width : 70%;
+	background-color: rgba(255, 255, 255,0.6);
+/*	font-family: Coronetscript, cursive;*/
+	border-radius: 0px; 
+	color:#262627;
+	float: left;
+	
+}
+#content2
+{
+	margin-top: none;
+	padding: 2%;
+	margin-left: 1.5%;
+	width : 28.5%;
+	background-color: rgba(255, 255, 255,0.6);
+/*	font-family: Coronetscript, cursive;*/
+	border-radius: 0px; 
+	color:#262627;
+	float: left;
+	border-radius: 5px;
+	
+}
+
+.section_menu a
+{
+	text-decoration: none;
+	color: #262627;
+/*	font-family: Coronetscript, cursive;*/
+
+}
+.section_menu a:hover
+{
+	text-decoration: none;
+	color:black;
+	font-family: Coronetscript, cursive;
+	font-style: bold;
+}
+#navbar
+{
+	border-radius: none;
+}

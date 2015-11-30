@@ -1,0 +1,36 @@
+<html><head>
+<title>Untitled Document</title>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<script>
+function temp()
+{
+    $(document).ready(function(){
+        setInterval(function() {
+          $("#target").each(function()
+		    {
+			    var images = $(this).find("div");
+			    $("#latestData").load("getLatestData.php");
+			});
+        }, 1000);
+    });
+
+}
+ 
+function loadImage() {
+    alert("Image is loaded");
+}
+</script>
+
+
+</script>
+</head>
+
+<body id="target" onload="temp()">
+  
+    <div id="latestData" >temp</div>
+
+
+</body>
+</html>

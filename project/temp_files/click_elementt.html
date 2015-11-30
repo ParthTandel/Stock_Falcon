@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<button onclick="myFunction()">Try it</button>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+<script>
+
+function myFunction() {
+    setInterval(function()
+    { 
+    	$.each($('.stock'), function() 
+    	{ 
+    			alert($(this).attr('id'));
+		});
+    }, 3000);
+}
+function addRow()
+{
+	
+	var newRow = jQuery('<tr class="stock" id="7" ><td>temp</td></tr>');
+	jQuery('table#temp').append(newRow);
+}
+
+</script>
+
+<table id="temp">
+	<tr class="stock" id="1"><td>te</td></tr>
+	<tr class="stock" id="2">w</tr>
+	<tr class="stock" id="3">e</tr>
+	<tr class="stock" id="4">r</tr>
+	<tr class="stock" id="5">t</tr>
+	<tr class="stock" id="6">y</tr>
+</table>
+<button onclick="addRow()"> clickme</button>
+
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<button onclick="myFunction()">Try it</button>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+<script>
+
+function myFunction() {
+    setInterval(function()
+    { 
+    	$.each($('.stock'), function() { 
+    			alert($(this).attr('id'));
+});
+    }, 3000);
+}
+</script>
+
+<table id="temp">
+	<tr class="stock" id="1">q</tr>
+	<tr class="stock" id="2">w</tr>
+	<tr class="stock" id="3">e</tr>
+	<tr class="stock" id="4">r</tr>
+	<tr class="stock" id="5">t</tr>
+</table>
+
+
+
+</body>
+</html>
