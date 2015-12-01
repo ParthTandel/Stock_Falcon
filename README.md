@@ -6,7 +6,7 @@ Instructions for deploying the application
 
 assuming that you have an experience in php and phpMyadmin
 
-Firstly created a new user in database with the name project and password : tcejorp now you can use any of your username and password but you have to change it in all files.
+Firstly create a new user in database with the name project and password : tcejorp now you can use any of your username and password but you have to change it in all files.
 The host set default is localhost.
 Give the use global previlages
 Then import the stockfalcon.sql file to you database.

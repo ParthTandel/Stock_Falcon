@@ -6,7 +6,7 @@ Instructions for deploying the application
 
 assuming that you have an experience in php and phpMyadmin
 
-Firstly created a new user in database with the name project and password : tcejorp now you can use any of your username and password but you have to change it in all files.
+Firstly creat a new user in database with the name project and password : tcejorp now you can use any of your username and password but you have to change it in all files.
 The host set default is localhost.
 Give the use global previlages
 Then import the stockfalcon.sql file to you database.
@@ -21,6 +21,11 @@ set the time of running this code just after the market close this will predict 
 Now also set the time for running of file mail_send_watchlist.php just after the above code ends use trial and catch to get the exact time.
 
 then run the file clear poll.py at every night at around 11:58pm so that it clear the log of poll for that day from the database
+
+
+Now run the file final_card.py directly using python forever on the server.
+
+After that Copy the content from folder project to your htdocs/your_project_name folder.
 
 
 
